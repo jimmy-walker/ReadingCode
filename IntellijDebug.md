@@ -105,6 +105,46 @@ IDEA的底部会出现Debug工作区。所有按钮鼠标移动上去都有tips�
 ##5.查看该类中所有函数
 点击Navigate | File Structure
 
+##6.intellij中生成类注释和方法注释
+
+###类注释
+File - Settings - Editor - File and Code Templates
+
+在右侧的Includes中点击添加符号，输入名称：File Header，输入下面的内容。
+
+```
+/**
+*
+* author: jomei
+* date: ${DATE} ${TIME}
+*/
+```
+
+###方法注释
+File - Settings - Editor - Live Templates
+
+在右侧先点击加号，添加一个Template Group, 然后选中这个Template Group，再点击加号，添加Live Template。
+
+在Abbreviation中添加快捷键：a
+
+在Description中添加注释
+
+在文本框中输入下面内容
+
+然后点击Edit variables，在Expression中分别选中：methodParameters, methodReturnType, Date()
+
+最后调用时，**直接输入/ + 你设置的Abbreviation快捷键 + tab键就直接生成了 （我设置的是/+ a + tab）**
+
+```
+** 
+* @Description: $description$ 
+* @Param: $params$ 
+* @return: $returns$ 
+* @Author: jomei
+* @Date: $date$ 
+*/ 
+```
+
 ##Reference
 https://ken.io/note/java-quickstart-idea-debug-skill 讲述intellij的各个选项的含义
 
