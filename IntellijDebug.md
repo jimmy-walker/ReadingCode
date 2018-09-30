@@ -135,6 +135,8 @@ File - Settings - Editor - Live Templates
 
 最后调用时，**直接输入/ + 你设置的Abbreviation快捷键 + tab键就直接生成了 （我设置的是/+ a + tab）**
 
+注意下面最上面是不用/的。
+
 ```
 ** 
 * @Description: $description$ 
