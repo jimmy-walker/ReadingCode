@@ -153,3 +153,5 @@ http://www.cnblogs.com/Bowu/p/4026117.html 讲述各个方法意义，补充了�
 https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/debug-introduce.md 官网翻译
 
 http://www.cnblogs.com/ghj1976/p/5382455.html 讲解部分操作
+
+https://blog.csdn.net/qq_34581118/article/details/78409782 讲解生成注释的方法
