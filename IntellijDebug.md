@@ -105,7 +105,10 @@ IDEA的底部会出现Debug工作区。所有按钮鼠标移动上去都有tips�
 ##5.查看该类中所有函数
 点击Navigate | File Structure
 
-##6.Intellij中生成类注释和方法注释
+##6.项目内查找
+输入快捷键：CTRL+SHIFT+F
+
+##7.Intellij中生成类注释和方法注释
 
 ###类注释
 File - Settings - Editor - File and Code Templates
